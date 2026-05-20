@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export function FinalCTA() {
   return (
-    <section id="cta" className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 py-20 border-t border-white/10">
+    <section id="cta" className="relative flex flex-col justify-center px-6 md:px-12 py-28 border-t border-white/10">
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
