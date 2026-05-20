@@ -39,24 +39,24 @@ export function Pillars() {
       <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-10">
         ⏤ The Heizen Operating System
       </p>
-      <div className="space-y-20">
-        {PILLARS.map((p, i) => (
+      <div className="divide-y divide-white/10">
+        {PILLARS.map((p) => (
           <motion.div
             key={p.n}
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="grid md:grid-cols-12 gap-8 items-start"
+            className="grid md:grid-cols-12 gap-6 items-start py-10 first:pt-0"
           >
             <div className="md:col-span-2 text-sm text-white/40 font-mono">{p.n}</div>
             <div className="md:col-span-6">
-              <h3 className="text-4xl md:text-6xl font-bold tracking-tighter text-white leading-[1]">
+              <h3 className="text-3xl md:text-5xl font-bold tracking-tighter text-white leading-[1.02]">
                 {p.title}
               </h3>
             </div>
-            <div className="md:col-span-4 space-y-6">
-              <p className="text-white/70 text-lg leading-relaxed">{p.desc}</p>
+            <div className="md:col-span-4 space-y-4">
+              <p className="text-white/70 text-base leading-relaxed">{p.desc}</p>
               <div className="flex flex-wrap gap-2">
                 {p.tags.map((t) => (
                   <span
@@ -68,9 +68,6 @@ export function Pillars() {
                 ))}
               </div>
             </div>
-            {i < PILLARS.length - 1 && (
-              <div className="md:col-span-12 mt-8 h-px bg-white/10" />
-            )}
           </motion.div>
         ))}
       </div>
