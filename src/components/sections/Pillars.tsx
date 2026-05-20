@@ -35,11 +35,11 @@ const PILLARS = [
 
 export function Pillars() {
   return (
-    <section id="pillars" className="relative py-32 px-6 md:px-12 border-t border-white/10">
-      <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-16">
+    <section id="pillars" className="relative py-20 px-6 md:px-12 border-t border-white/10">
+      <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-10">
         ⏤ The Heizen Operating System
       </p>
-      <div className="space-y-32">
+      <div className="space-y-20">
         {PILLARS.map((p, i) => (
           <motion.div
             key={p.n}

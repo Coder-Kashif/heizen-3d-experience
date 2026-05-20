@@ -25,8 +25,8 @@ const QUOTES = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="relative py-32 px-6 md:px-12 border-t border-white/10">
-      <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-16">
+    <section id="testimonials" className="relative py-20 px-6 md:px-12 border-t border-white/10">
+      <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-10">
         ⏤ Voices from the field
       </p>
       <div className="grid md:grid-cols-2 gap-8">

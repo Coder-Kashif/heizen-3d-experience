@@ -2,7 +2,7 @@ const PARTNERS = ["ITC", "HUL", "DHL", "COMPASS GROUP"];
 
 export function TrustedBy() {
   return (
-    <section className="relative py-32 px-6 md:px-12 border-t border-white/10">
+    <section className="relative py-20 px-6 md:px-12 border-t border-white/10">
       <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-12">
         ⏤ Trusted by Leading Enterprises
       </p>
