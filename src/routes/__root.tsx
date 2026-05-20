@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Heizen.work" },
+      { name: "description", content: "Heizen 3D Experience creates an immersive 3D animated website homepage." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Heizen.work" },
+      { property: "og:description", content: "Heizen 3D Experience creates an immersive 3D animated website homepage." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Heizen.work" },
+      { name: "twitter:description", content: "Heizen 3D Experience creates an immersive 3D animated website homepage." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/IBRolrD5eaUBaQoycmCNQkM7iel2/social-images/social-1779269476196-1000025725.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/IBRolrD5eaUBaQoycmCNQkM7iel2/social-images/social-1779269476196-1000025725.webp" },
     ],
     links: [
       {
