@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export function Problem() {
   return (
-    <section id="problem" className="relative min-h-screen flex items-center px-6 md:px-12 py-20">
+    <section id="problem" className="relative flex items-center px-6 md:px-12 py-28 border-t border-white/10">
       <div className="max-w-5xl">
         <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-8">⏤ The Problem</p>
         <motion.h2
